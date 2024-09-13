@@ -1,3 +1,7 @@
+#Saee Hatwalne
+#Statistics with R
+# 2023
+
 setwd("/Users/saeehatwalne/Desktop/APU 2023-25/Econometrics_wR")
 library(tidyverse)
 library(haven)
@@ -21,7 +25,7 @@ block8 <- read_dta("/Users/saeehatwalne/Desktop/APU 2023-25/Econometrics_wR/Bloc
 save(block8, file="/Users/saeehatwalne/Desktop/APU 2023-25/Econometrics_wR/Block_8_Household consumer expenditure.RData")
 load("Block_8_Household consumer expenditure.RData")
 
-#Q2) Rename column and find top 15 categories
+#Q2) Renaming columns and  top 15 categories
 
 #NOTE:I have taken 30 days consumption for my expenditures (throughout the assignment)
 block8 <- block8 %>% 
