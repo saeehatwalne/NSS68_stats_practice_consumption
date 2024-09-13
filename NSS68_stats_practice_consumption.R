@@ -61,7 +61,7 @@ category_df[category_df == "16"] <- "toilet_articles"
 #so it is consistent to get these items as top most expenditures in households
 #conveyance and transportation is also a crucial category since vehicles etc. are also costly purchases for a household
 
-#Q3)
+#Q3) Categories of expenditure
 #Q3a) categories and their proportions
 #making a column with relative proportions of expenditure
 category_df1 <- category_df %>%
